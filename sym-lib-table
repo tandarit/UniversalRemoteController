@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UniversalRemoteControllerLibary")(type "KiCad")(uri "${KIPRJMOD}/UniversalRemoteController.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32H750IBK6")(type "KiCad")(uri "C:/Users/TTandari/Documents/KiCad/STM32H750IBK6.kicad_sym")(options "")(descr ""))
+)

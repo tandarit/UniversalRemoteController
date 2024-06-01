@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dfe540b7-7587-4b82-94ea-0a8290455e48")
+	(paper "A3")
+	(title_block
+		(title "Universal Remote Controller")
+		(date "2024-05-19")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 185.166 34.544)
+		(size 69.85 100.076)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "8c81cb35-28d0-4be5-b9d3-78e2371cf69f")
+		(property "Sheetname" "MCU"
+			(at 185.166 33.8324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 185.166 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.102 33.528)
+		(size 72.39 101.854)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "b2b601d5-76ca-44c8-86bf-a186b2eece18")
+		(property "Sheetname" "Power"
+			(at 54.102 32.8164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 54.102 135.9666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB+" bidirectional
+			(at 126.492 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "190d85d9-fa43-48cd-82ee-2fa30343ded7")
+		)
+		(pin "USB-" bidirectional
+			(at 126.492 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "134b66d0-429e-41f3-964d-4df25d81cba9")
+		)
+		(pin "~{BQ25620_INT}" output
+			(at 126.492 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5468e9cb-493d-491b-86f7-e56955a3fed3")
+		)
+		(pin "BQ25620_SCK" output
+			(at 126.492 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "628839fd-6532-4a0b-82a8-81ca58955cd0")
+		)
+		(pin "~{BQ25620_CE}" output
+			(at 126.492 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6c7434e-582f-4454-820c-d699f1be4b28")
+		)
+		(pin "BQ25620_SDA" output
+			(at 126.492 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc6f8ace-2675-4f87-840b-124d0f79d0ed")
+		)
+		(pin "BATT_FET_FLAG" output
+			(at 126.492 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9c0f1eb-480e-4c34-9172-fa7c9ff7c2ce")
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
