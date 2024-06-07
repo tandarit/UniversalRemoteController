@@ -11484,10 +11484,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a3dbe708-6901-42b9-ac90-9daf03abbc54")
 		(property "Reference" "U3"
-			(at 224.79 184.15 0)
+			(at 216.662 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11494,7 @@
 			)
 		)
 		(property "Value" "BQ25620RYKR"
-			(at 224.79 186.69 0)
+			(at 223.52 244.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,6 +11534,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Distributor" "Mouser"
@@ -11543,6 +11543,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
