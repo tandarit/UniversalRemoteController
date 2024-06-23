@@ -10,17 +10,15 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
-	(junction
-		(at 124.968 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7041f6f-4db5-4b5b-8ef0-674826cd214f")
-	)
-	(junction
-		(at 124.968 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fba13b1a-ec3c-4d8e-8b5c-9b2b79057318")
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7aebe2-dbb3-4d0e-b2cc-4ec2d8f100d8")
 	)
 	(wire
 		(pts
@@ -44,7 +42,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 48.26) (xy 185.42 48.26)
+			(xy 125.73 48.26) (xy 185.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -94,7 +92,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.968 43.18) (xy 185.42 43.18)
+			(xy 125.73 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f628b91-e38d-4508-bf44-c5893a4935c1")
+	)
+	(wire
+		(pts
+			(xy 125.73 43.18) (xy 185.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -124,6 +132,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 64.77) (xy 185.42 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fba4b5-df57-45b8-a24b-ef6190868891")
+	)
+	(wire
+		(pts
 			(xy 255.27 109.22) (xy 284.48 109.22)
 		)
 		(stroke
@@ -131,26 +149,6 @@
 			(type default)
 		)
 		(uuid "9847f38f-a783-4e78-a0c8-4e2d6f894860")
-	)
-	(wire
-		(pts
-			(xy 124.46 43.18) (xy 124.968 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a248fc8c-2e59-492c-87e2-4d8a1d7db564")
-	)
-	(wire
-		(pts
-			(xy 124.46 48.26) (xy 124.968 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4261426-8ba1-4ba0-85bb-52f1de8e5b7b")
 	)
 	(bus
 		(pts
@@ -171,6 +169,16 @@
 			(type default)
 		)
 		(uuid "b9f16d96-4f5c-4af8-ae5b-61f5bd29d28d")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 185.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03df6d6-0c5e-442b-bc1a-fc2888a52ae6")
 	)
 	(wire
 		(pts
@@ -211,6 +219,16 @@
 			(type default)
 		)
 		(uuid "fa0a3aaf-477a-40a8-b146-78bdd1e628e7")
+	)
+	(wire
+		(pts
+			(xy 125.73 57.15) (xy 185.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf212a1-b719-4415-b6a6-dc79457b2bc6")
 	)
 	(sheet
 		(at 284.48 81.28)
@@ -441,6 +459,45 @@
 		)
 	)
 	(sheet
+		(at 52.832 153.416)
+		(size 73.914 61.214)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "1dbacdab-4168-4b06-af24-7af5ee3e678c")
+		(property "Sheetname" "ADAFRUIT_LCD_ILI9341"
+			(at 52.832 152.7044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADAFRUIT_LCD_ILI9341.kicad_sch"
+			(at 52.832 215.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 185.42 34.798)
 		(size 69.85 100.076)
 		(fields_autoplaced yes)
@@ -641,6 +698,56 @@
 			)
 			(uuid "4fd02c7e-3919-478f-9541-5fc158f63ae0")
 		)
+		(pin "I2C_SCK" output
+			(at 185.42 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbbf5d1b-c6a9-432e-9cfa-a5a655e56aef")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 185.42 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb6ca185-ad7b-4a55-ad6f-5492daef7630")
+		)
+		(pin "~{BQ25620_INT}" input
+			(at 185.42 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a17b4413-4dc3-453b-8c9f-2433639740f6")
+		)
+		(pin "BATT_FET_FLAG" input
+			(at 185.42 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb274c97-0724-47f1-bb0b-15c6ea57828b")
+		)
+		(pin "~{BQ25620_CE}" input
+			(at 185.42 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6aa2bdca-5c45-4c04-98ad-7fb2c3aec516")
+		)
 		(instances
 			(project "UniversalRemoteController"
 				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
@@ -650,7 +757,46 @@
 		)
 	)
 	(sheet
-		(at 52.578 33.528)
+		(at 52.832 88.138)
+		(size 72.39 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "983f520b-4c15-4e26-8d0a-f1f7c260b573")
+		(property "Sheetname" "Sensors"
+			(at 52.832 87.4264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 52.832 136.9826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 33.528)
 		(size 72.39 46.99)
 		(fields_autoplaced yes)
 		(stroke
@@ -663,7 +809,7 @@
 		)
 		(uuid "b2b601d5-76ca-44c8-86bf-a186b2eece18")
 		(property "Sheetname" "Power"
-			(at 52.578 32.6386 0)
+			(at 53.34 32.6386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,7 +818,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 52.578 81.2804 0)
+			(at 53.34 81.2804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,7 +827,7 @@
 			)
 		)
 		(pin "USB-" bidirectional
-			(at 124.968 48.26 0)
+			(at 125.73 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +837,7 @@
 			(uuid "134b66d0-429e-41f3-964d-4df25d81cba9")
 		)
 		(pin "~{BQ25620_INT}" output
-			(at 124.968 57.15 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +847,7 @@
 			(uuid "5468e9cb-493d-491b-86f7-e56955a3fed3")
 		)
 		(pin "BQ25620_SCK" output
-			(at 124.968 62.23 0)
+			(at 125.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +857,7 @@
 			(uuid "628839fd-6532-4a0b-82a8-81ca58955cd0")
 		)
 		(pin "~{BQ25620_CE}" output
-			(at 124.968 59.69 0)
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +867,7 @@
 			(uuid "a6c7434e-582f-4454-820c-d699f1be4b28")
 		)
 		(pin "BQ25620_SDA" output
-			(at 124.968 64.77 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +877,7 @@
 			(uuid "cc6f8ace-2675-4f87-840b-124d0f79d0ed")
 		)
 		(pin "BATT_FET_FLAG" output
-			(at 124.968 72.39 0)
+			(at 125.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,7 +887,7 @@
 			(uuid "c9c0f1eb-480e-4c34-9172-fa7c9ff7c2ce")
 		)
 		(pin "USB+" bidirectional
-			(at 124.968 43.18 0)
+			(at 125.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,6 +900,45 @@
 			(project "UniversalRemoteController"
 				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.912 154.686)
+		(size 70.358 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "cbcac6cf-1852-4ed2-83ea-230d63855107")
+		(property "Sheetname" "Bluetooth"
+			(at 184.912 153.7966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bluetooth.kicad_sch"
+			(at 184.912 217.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "8")
 				)
 			)
 		)

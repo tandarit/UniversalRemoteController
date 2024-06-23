@@ -707,6 +707,18 @@
     [
       "03a0a5f8-be26-43c7-930d-c94a55e68649",
       "SDRAM"
+    ],
+    [
+      "983f520b-4c15-4e26-8d0a-f1f7c260b573",
+      "Sensors"
+    ],
+    [
+      "1dbacdab-4168-4b06-af24-7af5ee3e678c",
+      "ADAFRUIT_LCD_ILI9341"
+    ],
+    [
+      "cbcac6cf-1852-4ed2-83ea-230d63855107",
+      "Bluetooth"
     ]
   ],
   "text_variables": {}
