@@ -522,6 +522,36 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/MCU/FMC_A0": "High Speed Signal",
+      "/MCU/FMC_A1": "High Speed Signal",
+      "/MCU/FMC_A10": "High Speed Signal",
+      "/MCU/FMC_A11": "High Speed Signal",
+      "/MCU/FMC_A2": "High Speed Signal",
+      "/MCU/FMC_A3": "High Speed Signal",
+      "/MCU/FMC_A4": "High Speed Signal",
+      "/MCU/FMC_A5": "High Speed Signal",
+      "/MCU/FMC_A6": "High Speed Signal",
+      "/MCU/FMC_A7": "High Speed Signal",
+      "/MCU/FMC_A8": "High Speed Signal",
+      "/MCU/FMC_A9": "High Speed Signal",
+      "/MCU/FMC_A[0..11]": "High Speed Signal",
+      "/MCU/FMC_DQ0": "High Speed Signal",
+      "/MCU/FMC_DQ1": "High Speed Signal",
+      "/MCU/FMC_DQ10": "High Speed Signal",
+      "/MCU/FMC_DQ11": "High Speed Signal",
+      "/MCU/FMC_DQ12": "High Speed Signal",
+      "/MCU/FMC_DQ13": "High Speed Signal",
+      "/MCU/FMC_DQ14": "High Speed Signal",
+      "/MCU/FMC_DQ15": "High Speed Signal",
+      "/MCU/FMC_DQ2": "High Speed Signal",
+      "/MCU/FMC_DQ3": "High Speed Signal",
+      "/MCU/FMC_DQ4": "High Speed Signal",
+      "/MCU/FMC_DQ5": "High Speed Signal",
+      "/MCU/FMC_DQ6": "High Speed Signal",
+      "/MCU/FMC_DQ7": "High Speed Signal",
+      "/MCU/FMC_DQ8": "High Speed Signal",
+      "/MCU/FMC_DQ9": "High Speed Signal",
+      "/MCU/FMC_DQ[0..15]": "High Speed Signal",
       "/MCU/QUADSPI_BK1_IO0": "High Speed Signal",
       "/MCU/QUADSPI_BK1_IO1": "High Speed Signal",
       "/MCU/QUADSPI_BK1_IO2": "High Speed Signal",
@@ -718,7 +748,11 @@
     ],
     [
       "cbcac6cf-1852-4ed2-83ea-230d63855107",
-      "Bluetooth"
+      "BluetoothWiFi"
+    ],
+    [
+      "c27994a5-2bf4-4e92-bb48-64cda2d8b32b",
+      "Audio"
     ]
   ],
   "text_variables": {}

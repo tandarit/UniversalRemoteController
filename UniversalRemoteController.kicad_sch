@@ -10,6 +10,78 @@
 		(rev "1.0")
 	)
 	(lib_symbols)
+	(junction
+		(at 126.238 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02623d9c-0c1b-44d3-a03e-d6c1a7e9d0ab")
+	)
+	(junction
+		(at 214.63 134.874)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121baa5c-7815-412e-b50b-1307ece9a9be")
+	)
+	(junction
+		(at 126.238 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26d86474-b334-4bf8-b809-b8c93057b377")
+	)
+	(junction
+		(at 126.238 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c778f8-7bd9-4cc7-b6d4-2cf42357f026")
+	)
+	(junction
+		(at 126.238 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f697d6a-9f2e-4ced-b6a4-4ff6b882d356")
+	)
+	(junction
+		(at 126.238 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4902e865-c776-48b1-a39a-6700d0669ed8")
+	)
+	(junction
+		(at 219.71 134.874)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "569a87b4-1dee-4620-b9f9-a7c4204085c8")
+	)
+	(junction
+		(at 217.17 134.874)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d1a1f98-f3ac-4fdc-a5b1-9603fb5e33a4")
+	)
+	(junction
+		(at 219.71 154.686)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fa3eb12-c18d-4527-89b0-6c5287c0b21f")
+	)
+	(junction
+		(at 126.238 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3249604-1963-4bbc-bf45-ad53c4f58f06")
+	)
+	(junction
+		(at 214.63 154.686)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa2b224-1383-4d15-901a-71889947911f")
+	)
+	(junction
+		(at 217.17 154.686)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5027cd-a53c-49ba-8225-617f1ffb5811")
+	)
 	(wire
 		(pts
 			(xy 125.73 72.39) (xy 185.42 72.39)
@@ -19,6 +91,16 @@
 			(type default)
 		)
 		(uuid "0d7aebe2-dbb3-4d0e-b2cc-4ec2d8f100d8")
+	)
+	(wire
+		(pts
+			(xy 214.63 154.686) (xy 214.63 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d935f9-ce7f-4a6e-821f-ab43463fae5f")
 	)
 	(wire
 		(pts
@@ -42,6 +124,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 90.17) (xy 126.238 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28816527-d90b-44be-ad14-4ecea3f396d6")
+	)
+	(wire
+		(pts
 			(xy 125.73 48.26) (xy 185.42 48.26)
 		)
 		(stroke
@@ -49,6 +141,56 @@
 			(type default)
 		)
 		(uuid "29b64b3d-db0d-4e7a-a987-a9a5d22a7baa")
+	)
+	(wire
+		(pts
+			(xy 219.71 134.62) (xy 219.71 134.874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c95058c-f89d-427c-942f-43425b66d247")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 126.238 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34193ad4-f439-48db-a449-19e742372540")
+	)
+	(wire
+		(pts
+			(xy 219.71 154.686) (xy 219.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfd670a-4752-4ce5-8ce4-e46e827b04ba")
+	)
+	(wire
+		(pts
+			(xy 125.73 100.33) (xy 126.238 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d01e899-32d4-461c-b1e9-be171353fa4c")
+	)
+	(bus
+		(pts
+			(xy 125.73 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42da7956-a64c-4b1d-9a3d-616bfa535ecb")
 	)
 	(wire
 		(pts
@@ -82,6 +224,36 @@
 	)
 	(wire
 		(pts
+			(xy 126.238 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ece3c6e-dba4-4554-9913-09000d003652")
+	)
+	(wire
+		(pts
+			(xy 217.17 154.686) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ea4d90-9939-454b-af74-52fc18fb6f8e")
+	)
+	(bus
+		(pts
+			(xy 271.78 160.02) (xy 285.75 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d577626-45b6-4f7a-a72a-92a0e68e2018")
+	)
+	(wire
+		(pts
 			(xy 255.27 101.6) (xy 284.48 101.6)
 		)
 		(stroke
@@ -92,6 +264,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 134.874) (xy 219.71 154.686)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686b64a5-8946-4f34-9ef7-c100ec1a7d02")
+	)
+	(wire
+		(pts
 			(xy 125.73 62.23) (xy 185.42 62.23)
 		)
 		(stroke
@@ -99,6 +281,16 @@
 			(type default)
 		)
 		(uuid "6f628b91-e38d-4508-bf44-c5893a4935c1")
+	)
+	(wire
+		(pts
+			(xy 126.238 102.87) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd63710-5d6e-4847-8fb9-2b3ebd42046f")
 	)
 	(wire
 		(pts
@@ -142,6 +334,26 @@
 	)
 	(wire
 		(pts
+			(xy 126.238 100.33) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e943d89-aa8b-412f-89a0-e58df7c67cbf")
+	)
+	(wire
+		(pts
+			(xy 214.63 134.874) (xy 214.63 154.686)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a4b97a-6794-4c56-a54f-8b0afbbdb1eb")
+	)
+	(wire
+		(pts
 			(xy 255.27 109.22) (xy 284.48 109.22)
 		)
 		(stroke
@@ -159,6 +371,16 @@
 			(type default)
 		)
 		(uuid "a5b998ba-835c-4f20-862b-1d4bb4667e5e")
+	)
+	(wire
+		(pts
+			(xy 126.238 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f51cfa-18c2-49fa-9555-500075226581")
 	)
 	(wire
 		(pts
@@ -182,6 +404,46 @@
 	)
 	(wire
 		(pts
+			(xy 126.238 92.71) (xy 185.42 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33de7ac-0853-4b20-9bc9-eeeb5d1d4eb0")
+	)
+	(wire
+		(pts
+			(xy 217.17 134.874) (xy 217.17 154.686)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc6bdfe-a95e-4d39-bd50-daf5f8abf5c9")
+	)
+	(wire
+		(pts
+			(xy 125.73 92.71) (xy 126.238 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d298cfea-3ae1-4203-bbe1-c12aa4367703")
+	)
+	(wire
+		(pts
+			(xy 125.73 95.25) (xy 126.238 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60d2d9a-0f2f-43fe-857a-8f0c456d2a40")
+	)
+	(wire
+		(pts
 			(xy 255.27 106.68) (xy 284.48 106.68)
 		)
 		(stroke
@@ -202,6 +464,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 102.87) (xy 126.238 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1403c0-75e9-4103-addd-d00f7db45c75")
+	)
+	(wire
+		(pts
+			(xy 214.63 134.62) (xy 214.63 134.874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51a366c-b73c-4953-a6c8-c04d0c8cf048")
+	)
+	(bus
+		(pts
+			(xy 255.27 132.08) (xy 271.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ace649-2111-4182-b6cc-adb3096a543c")
+	)
+	(wire
+		(pts
 			(xy 255.27 88.9) (xy 284.48 88.9)
 		)
 		(stroke
@@ -209,6 +501,26 @@
 			(type default)
 		)
 		(uuid "eeb10f35-53e1-40ae-9829-62fc65a3d73e")
+	)
+	(wire
+		(pts
+			(xy 126.238 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e011af-cfd7-462d-ac89-19862596947e")
+	)
+	(bus
+		(pts
+			(xy 125.73 120.65) (xy 185.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40f9202-343f-4ff6-846f-18d12d85fd95")
 	)
 	(wire
 		(pts
@@ -229,6 +541,36 @@
 			(type default)
 		)
 		(uuid "fcf212a1-b719-4415-b6a6-dc79457b2bc6")
+	)
+	(bus
+		(pts
+			(xy 125.73 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1b8d5f-216a-42d9-b13e-fc9b8262491a")
+	)
+	(wire
+		(pts
+			(xy 217.17 134.62) (xy 217.17 134.874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe769eea-e2d0-4b53-b2be-1199cdc75025")
+	)
+	(bus
+		(pts
+			(xy 271.78 132.08) (xy 271.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaaab8d-00ac-4e63-8e75-8be06cafbf88")
 	)
 	(sheet
 		(at 284.48 81.28)
@@ -459,8 +801,8 @@
 		)
 	)
 	(sheet
-		(at 52.832 153.416)
-		(size 73.914 61.214)
+		(at 284.988 155.194)
+		(size 41.402 60.706)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.508)
@@ -472,7 +814,7 @@
 		)
 		(uuid "1dbacdab-4168-4b06-af24-7af5ee3e678c")
 		(property "Sheetname" "ADAFRUIT_LCD_ILI9341"
-			(at 52.832 152.7044 0)
+			(at 284.988 154.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -481,13 +823,23 @@
 			)
 		)
 		(property "Sheetfile" "ADAFRUIT_LCD_ILI9341.kicad_sch"
-			(at 52.832 215.2146 0)
+			(at 284.988 216.6624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "ILI9341_LCD" bidirectional
+			(at 284.988 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b822f40-6a8e-470a-8558-4603f6fe66e2")
 		)
 		(instances
 			(project "UniversalRemoteController"
@@ -748,6 +1100,136 @@
 			)
 			(uuid "6aa2bdca-5c45-4c04-98ad-7fb2c3aec516")
 		)
+		(pin "ESP32_EN" output
+			(at 214.63 134.874 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58a29588-26b4-4f7f-bfdd-8b80a5387308")
+		)
+		(pin "ESP32_TX" input
+			(at 217.17 134.874 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52ad965d-24b0-4a1c-8d40-0f540f055901")
+		)
+		(pin "ESP32_RX" output
+			(at 219.71 134.874 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a688401-65b1-436f-a758-432ac992883b")
+		)
+		(pin "ILI9341_LCD" bidirectional
+			(at 255.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0c37f522-ab71-42d3-a61d-863c7086cadd")
+		)
+		(pin "JOY_RIGHT_V_ANALOG" input
+			(at 185.42 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6307b7e9-854e-48f9-84ec-7f207a493a88")
+		)
+		(pin "JOY_LEFT_H_ANALOG" input
+			(at 185.42 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "596f465b-8453-48f6-960a-e09119aca8cd")
+		)
+		(pin "JOY_RIGHT_H_ANALOG" input
+			(at 185.42 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5851871b-93bf-4877-9113-7fabb7d01c78")
+		)
+		(pin "JOY_LEFT_V_ANALOG" input
+			(at 185.42 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2097cc4f-a036-48ee-a883-662f1b58de5a")
+		)
+		(pin "JOY_LEFT_BUTTON" input
+			(at 185.42 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "334b704c-72fe-4159-8ce4-ab1417bdbac2")
+		)
+		(pin "JOY_RIGHT_BUTTON" input
+			(at 185.42 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e55088af-f4ab-4c3d-af77-929475e2c5bb")
+		)
+		(pin "AXL_SPI" input
+			(at 185.42 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4c775f6-598d-445f-a599-791215214607")
+		)
+		(pin "MIC_I2S" bidirectional
+			(at 185.42 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04063624-a917-47af-8c5b-6641fdb7287a")
+		)
+		(pin "BME280_I2C" bidirectional
+			(at 185.42 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "087ff37e-ad76-475d-b5e4-07658f560356")
+		)
 		(instances
 			(project "UniversalRemoteController"
 				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
@@ -757,7 +1239,7 @@
 		)
 	)
 	(sheet
-		(at 52.832 88.138)
+		(at 53.848 87.376)
 		(size 72.39 48.26)
 		(fields_autoplaced yes)
 		(stroke
@@ -770,7 +1252,7 @@
 		)
 		(uuid "983f520b-4c15-4e26-8d0a-f1f7c260b573")
 		(property "Sheetname" "Sensors"
-			(at 52.832 87.4264 0)
+			(at 53.848 86.6644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,13 +1261,103 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 52.832 136.9826 0)
+			(at 53.848 136.2206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "JOY_LEFT_H_ANALOG" output
+			(at 126.238 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79e5b3f0-5cfe-4ed0-bd37-8bc70a807ef8")
+		)
+		(pin "JOY_LEFT_V_ANALOG" output
+			(at 126.238 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed32842c-aac6-4f34-9bec-3b6b705516ad")
+		)
+		(pin "JOY_LEFT_BUTTON" output
+			(at 126.238 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21b120ec-0646-4227-9ae8-e5d10ffb068a")
+		)
+		(pin "JOY_RIGHT_BUTTON" output
+			(at 126.238 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f738659b-fa21-4179-8232-65b52211ebef")
+		)
+		(pin "JOY_RIGHT_V_ANALOG" output
+			(at 126.238 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a0dc73e-ea31-456c-b153-03a99145034c")
+		)
+		(pin "JOY_RIGHT_H_ANALOG" output
+			(at 126.238 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7abaac1-fd7e-4587-9910-0dc727a5e7f0")
+		)
+		(pin "BME280_I2C" bidirectional
+			(at 126.238 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "948d6709-a4b7-4a57-8245-6ab5778f29c4")
+		)
+		(pin "MIC_I2S" bidirectional
+			(at 126.238 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46355d9b-23d2-4c06-a438-8c4cc41d6219")
+		)
+		(pin "AXL_SPI" bidirectional
+			(at 126.238 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6784a9f-29a3-407d-b588-a265746df2da")
 		)
 		(instances
 			(project "UniversalRemoteController"
@@ -905,6 +1477,45 @@
 		)
 	)
 	(sheet
+		(at 54.864 151.384)
+		(size 71.374 63.246)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 163 155 1)
+		)
+		(fill
+			(color 254 255 106 1.0000)
+		)
+		(uuid "c27994a5-2bf4-4e92-bb48-64cda2d8b32b")
+		(property "Sheetname" "Audio"
+			(at 54.864 150.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 54.864 215.3924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 184.912 154.686)
 		(size 70.358 62.23)
 		(fields_autoplaced yes)
@@ -917,7 +1528,7 @@
 			(color 254 255 106 1.0000)
 		)
 		(uuid "cbcac6cf-1852-4ed2-83ea-230d63855107")
-		(property "Sheetname" "Bluetooth"
+		(property "Sheetname" "BluetoothWiFi"
 			(at 184.912 153.7966 0)
 			(effects
 				(font
@@ -926,7 +1537,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Bluetooth.kicad_sch"
+		(property "Sheetfile" "BluetoothWifi.kicad_sch"
 			(at 184.912 217.6784 0)
 			(effects
 				(font
@@ -934,6 +1545,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "ESP32_EN" input
+			(at 214.63 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "844f9e6a-5853-4f88-9683-a3cab63d4f62")
+		)
+		(pin "ESP32_RX" input
+			(at 219.71 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f365f3af-e765-4f39-96d5-76a8fd8aed40")
+		)
+		(pin "ESP32_TX" output
+			(at 217.17 154.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0ac91b9e-8310-46b0-9e71-0deff1f81a22")
 		)
 		(instances
 			(project "UniversalRemoteController"

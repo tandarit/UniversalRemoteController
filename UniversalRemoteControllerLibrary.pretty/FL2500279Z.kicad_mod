@@ -1,0 +1,236 @@
+(footprint "FL2500279Z"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FL2500279Z-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at -1.19 -3.15 0)
+		(layer "F.SilkS")
+		(uuid "5b982031-010f-419d-9cc8-afa7b4f6d82a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FL2500279Z"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "45df58ee-429f-432f-8160-bebc100686e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "FL2500279Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae32f9a5-ed09-4151-8aae-e54ae3085cdc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bc6062c-e8e8-4842-9c76-57f048939975")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4356bca2-129e-4b3d-9916-5d6194765b7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 0.8)
+		(end -2.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "158c72e4-4b30-4759-9f4f-69d38b556913")
+	)
+	(fp_line
+		(start -2.3 0.8)
+		(end -2.3 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a78a2bf-4b41-4516-ac34-05b2b0c0132f")
+	)
+	(fp_arc
+		(start -2.4 0.8)
+		(mid -2.35 0.75)
+		(end -2.3 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "293d7057-ad48-455c-bb85-78b7296c64f0")
+	)
+	(fp_arc
+		(start -2.3 0.8)
+		(mid -2.35 0.85)
+		(end -2.4 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67633563-7baa-4a13-82d5-714168d1f4a0")
+	)
+	(fp_line
+		(start -2.8 -2.4)
+		(end 2.8 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ab06ec3-0844-468f-8912-8c304a1198f4")
+	)
+	(fp_line
+		(start -2.8 2.4)
+		(end -2.8 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e44bc2a1-429a-495f-ba1a-40343e36c1bc")
+	)
+	(fp_line
+		(start 2.8 -2.4)
+		(end 2.8 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b26d882e-7498-4784-bde1-43122e252106")
+	)
+	(fp_line
+		(start 2.8 2.4)
+		(end -2.8 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24343ccc-dd79-41cb-b79f-158f84f22074")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73250c55-3561-4540-886d-d2bad5acbf01")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eef58d2f-77e2-40a2-ab63-cb137140d122")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26e51b3e-9cad-4080-8e0b-767e8685d023")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6940ac6f-9f96-458a-a3f9-d38d9f1ddaef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a2c77bcb-4571-45f2-a14e-a12d59cd6445")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 0.8 90)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e744b5a-1355-4927-9318-75768b9bd4ea")
+	)
+	(pad "2" smd rect
+		(at 1.05 0.8 90)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ad7366d-3dab-44d7-8a2f-956df686d4b3")
+	)
+	(pad "3" smd rect
+		(at 1.05 -0.8 90)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc05c6e7-7653-4c88-8144-beaade1b700c")
+	)
+	(pad "4" smd rect
+		(at -1.05 -0.8 90)
+		(size 1.2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b47fb5bd-29fb-4a13-ad67-110ca2aab32f")
+	)
+	(model "${KIPRJMOD}/UniversalRemoteControllerLibrary.pretty/FL2500279Z.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
