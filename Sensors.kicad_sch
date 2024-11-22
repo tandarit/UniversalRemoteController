@@ -2027,6 +2027,16 @@
 		)
 		(uuid "2172e4ea-b7ab-42c5-9cb0-83393480d236")
 	)
+	(wire
+		(pts
+			(xy 59.69 91.44) (xy 53.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a193a5-880e-4d97-a2a4-b28e66a3ccc7")
+	)
 	(bus
 		(pts
 			(xy 22.86 189.23) (xy 92.71 189.23)
@@ -2089,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 53.34 91.44)
+			(xy 69.85 91.44) (xy 67.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3077,33 @@
 		)
 		(uuid "ff7037c0-ea0e-4757-aa93-2220487f1050")
 	)
-	(label "MIC_I2S_CLK"
+	(text "Right Channel"
+		(exclude_from_sim no)
+		(at 253.492 90.678 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a63472e3-4d14-41fe-b5a0-22a237dfdab4")
+	)
+	(text "Left Channel"
+		(exclude_from_sim no)
+		(at 87.376 91.694 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b4b7f6eb-ff81-49a9-ae1d-e580ab16ffac")
+	)
+	(label "I2S_CLK"
 		(at 242.57 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3100,7 +3136,7 @@
 		)
 		(uuid "11107ff5-2d90-4c71-9781-64a4db3a8f95")
 	)
-	(label "MIC_I2S_DATA"
+	(label "I2S_SDI"
 		(at 99.06 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3111,7 +3147,7 @@
 		)
 		(uuid "1f4c51c2-07f4-4b0e-b8ac-cd26baa2a9c6")
 	)
-	(label "MIC_I2S_DATA"
+	(label "I2S_SDI"
 		(at 242.57 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3144,7 +3180,7 @@
 		)
 		(uuid "589831bc-0ee7-4c0f-b7da-3fc4823af159")
 	)
-	(label "MIC_I2S_CLK"
+	(label "I2S_CLK"
 		(at 73.66 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3177,7 +3213,7 @@
 		)
 		(uuid "9c253151-b4af-4815-9f5d-64d165ed1bf5")
 	)
-	(label "MIC_I2S_CLK"
+	(label "I2S_CLK"
 		(at 99.06 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3188,7 +3224,7 @@
 		)
 		(uuid "ac8141b1-5b59-4c4a-ab66-b099a07f6079")
 	)
-	(label "MIC_I2S_DATA"
+	(label "I2S_SDI"
 		(at 73.66 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3305,7 +3341,7 @@
 		)
 		(uuid "d63eaa56-3c94-46d4-8c0a-bf274a5557ad")
 	)
-	(hierarchical_label "MIC_I2S"
+	(hierarchical_label "AUDIO_I2S"
 		(shape bidirectional)
 		(at 157.48 83.82 0)
 		(fields_autoplaced yes)
@@ -3636,6 +3672,24 @@
 			)
 		)
 		(property "Description" "High performance digital XENSIV MEMS microphone, -36 dBFS Sensitivity, LLGA-5"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OrderCode" "726-IM69D130V01XTSA1"
+			(at 53.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
 			(at 53.34 101.6 0)
 			(effects
 				(font
@@ -6190,6 +6244,24 @@
 				(hide yes)
 			)
 		)
+		(property "OrderCode" "726-IM69D130V01XTSA1"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Mouser"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aec6ae00-d843-478c-8d57-69bf2867fb4a")
 		)
@@ -6899,6 +6971,73 @@
 			(project "UniversalRemoteController"
 				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48/983f520b-4c15-4e26-8d0a-f1f7c260b573"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e37f0224-0fd5-4885-8955-e2efe5d12dbb")
+		(property "Reference" "R44"
+			(at 63.5 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.246 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 63.5 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709ae63d-c7a3-43f1-8047-47db3629e0dd")
+		)
+		(pin "2"
+			(uuid "f99c3733-4e98-4d36-bca9-7677e885100e")
+		)
+		(instances
+			(project "UniversalRemoteController"
+				(path "/dfe540b7-7587-4b82-94ea-0a8290455e48/983f520b-4c15-4e26-8d0a-f1f7c260b573"
+					(reference "R44")
 					(unit 1)
 				)
 			)

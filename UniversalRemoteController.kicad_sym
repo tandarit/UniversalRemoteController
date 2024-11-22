@@ -8623,7 +8623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
+		(property "Reference" "U"
 			(at 41.91 7.62 0)
 			(effects
 				(font
@@ -8641,7 +8641,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "BGA201C65P15X15_1000X1000X60"
+		(property "Footprint" "UniversalRemoteControllerLibrary:BGA201C65P15X15_1000X1000X60"
 			(at 41.91 -94.92 0)
 			(effects
 				(font

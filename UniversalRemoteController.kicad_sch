@@ -82,6 +82,12 @@
 		(color 0 0 0 0)
 		(uuid "ed5027cd-a53c-49ba-8225-617f1ffb5811")
 	)
+	(junction
+		(at 157.48 129.286)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc37d13-24ac-4b7c-a6b8-e10f0ec5d38d")
+	)
 	(wire
 		(pts
 			(xy 125.73 72.39) (xy 185.42 72.39)
@@ -192,6 +198,16 @@
 		)
 		(uuid "42da7956-a64c-4b1d-9a3d-616bfa535ecb")
 	)
+	(bus
+		(pts
+			(xy 157.48 129.286) (xy 185.42 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bcbb81-9f46-4396-a2a1-cbbd42c750ff")
+	)
 	(wire
 		(pts
 			(xy 255.27 104.14) (xy 284.48 104.14)
@@ -201,6 +217,16 @@
 			(type default)
 		)
 		(uuid "450a594e-fa7e-427f-b927-4aa172e043ce")
+	)
+	(bus
+		(pts
+			(xy 126.238 129.286) (xy 157.48 129.286)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4983fadb-e811-4484-987a-4e25074b6069")
 	)
 	(wire
 		(pts
@@ -382,6 +408,16 @@
 		)
 		(uuid "b5f51cfa-18c2-49fa-9555-500075226581")
 	)
+	(bus
+		(pts
+			(xy 157.48 157.48) (xy 126.238 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a7b339-859d-43d9-aeb1-b862f74b82fc")
+	)
 	(wire
 		(pts
 			(xy 255.27 52.07) (xy 284.48 52.07)
@@ -522,6 +558,16 @@
 		)
 		(uuid "f40f9202-343f-4ff6-846f-18d12d85fd95")
 	)
+	(bus
+		(pts
+			(xy 157.48 129.286) (xy 157.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65f8120-b4ff-415f-a02f-dfc042ba3fbc")
+	)
 	(wire
 		(pts
 			(xy 255.27 111.76) (xy 284.48 111.76)
@@ -541,16 +587,6 @@
 			(type default)
 		)
 		(uuid "fcf212a1-b719-4415-b6a6-dc79457b2bc6")
-	)
-	(bus
-		(pts
-			(xy 125.73 113.03) (xy 185.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1b8d5f-216a-42d9-b13e-fc9b8262491a")
 	)
 	(wire
 		(pts
@@ -1210,16 +1246,6 @@
 			)
 			(uuid "a4c775f6-598d-445f-a599-791215214607")
 		)
-		(pin "MIC_I2S" bidirectional
-			(at 185.42 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "04063624-a917-47af-8c5b-6641fdb7287a")
-		)
 		(pin "BME280_I2C" bidirectional
 			(at 185.42 120.65 180)
 			(effects
@@ -1229,6 +1255,16 @@
 				(justify left)
 			)
 			(uuid "087ff37e-ad76-475d-b5e4-07658f560356")
+		)
+		(pin "AUDIO_I2S" bidirectional
+			(at 185.42 129.286 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f116b0ed-7391-491c-8b15-6c9c614ca70c")
 		)
 		(instances
 			(project "UniversalRemoteController"
@@ -1339,16 +1375,6 @@
 			)
 			(uuid "948d6709-a4b7-4a57-8245-6ab5778f29c4")
 		)
-		(pin "MIC_I2S" bidirectional
-			(at 126.238 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "46355d9b-23d2-4c06-a438-8c4cc41d6219")
-		)
 		(pin "AXL_SPI" bidirectional
 			(at 126.238 116.84 0)
 			(effects
@@ -1358,6 +1384,16 @@
 				(justify right)
 			)
 			(uuid "e6784a9f-29a3-407d-b588-a265746df2da")
+		)
+		(pin "AUDIO_I2S" bidirectional
+			(at 126.238 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1edddc6a-693d-4c23-a089-bd5f151aa7bf")
 		)
 		(instances
 			(project "UniversalRemoteController"
@@ -1506,6 +1542,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "AUDIO_I2S" bidirectional
+			(at 126.238 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1231f25-dd31-483d-accc-d49f5b158306")
 		)
 		(instances
 			(project "UniversalRemoteController"
